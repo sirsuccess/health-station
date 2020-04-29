@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Expletus + Sans");
 
 :root {
+    /* percentage 0% - 100% */
     --level: 60%;
+
+    /* range 0.00 - 1 */
     --level2: 1;
 }
 
@@ -38,13 +41,18 @@ body {
 }
 
 h2 {
-    color: #2364d2;
-    font-weight: 900;
-    letter-spacing: 1.5px;
     text-transform: uppercase;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+h3,
+h2 {
+    color: #2364d2;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+
 }
 
 .progress-bg {
